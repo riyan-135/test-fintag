@@ -129,10 +129,10 @@
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-4">
-                <img src="https://fintag.id/img/legal.png" alt="">
+                <img src="https://fintag.id/img/legal.png" class="position-relative" style="height: 78%;bottom: 21px;left: 22px;" alt="">
               </div>
               <div class="col-md-4">
-                <p>Anggota Terdaftar dari:</p>
+                <p style="font-size: 14px;">Anggota Terdaftar dari:</p>
                 <img src="https://fintag.id/img/logo_afpi_new.png" alt="">
               </div>
               <div class="col-md-4">

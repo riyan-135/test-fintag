@@ -1,115 +1,117 @@
 <template>
   <div>
     <div class="">
-      <h3 class="text-center px-5 py-5">Cara Kerja Fintag</h3>
-
-      <div class="row">
-        <div class="col-md-3 col-sm-12">
-          <div class="ml-5">
-            <div
-              class="card border-white text-center d-flex align-items-center justify-content-center shadow"
-              style="width: 18rem"
-            >
+      <div class="">
+        <h3 class="text-center px-5 py-5">Cara Kerja Fintag</h3>
+  
+        <div class="row">
+          <div class="col-md-3 col-sm-12 hidden" ref="card0">
+            <div class="ml-5">
               <div
-                class="d-flex align-items-center justify-content-center rounded-circle p-3 mt-5 bg-primary"
-                style="width: 100px; height: 100px"
+                class="card border-white text-center d-flex align-items-center justify-content-center shadow"
+                style="width: 18rem"
               >
-                <div>
-                  <ion-icon
-                    name="storefront-outline"
-                    style="font-size: 50px; color: white"
-                  ></ion-icon>
+                <div
+                  class="d-flex align-items-center justify-content-center rounded-circle p-3 mt-5 bg-primary"
+                  style="width: 100px; height: 100px"
+                >
+                  <div>
+                    <ion-icon
+                      name="storefront-outline"
+                      style="font-size: 50px; color: white"
+                    ></ion-icon>
+                  </div>
                 </div>
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">Pelaku Usaha</h5>
-                <p class="card-text text-sm" style="font-size: 14px">
-                  Pelaku Usaha menggunakan FINTAG untuk dapatkan modal usaha
-                </p>
+  
+                <div class="card-body">
+                  <h5 class="card-title">Pelaku Usaha</h5>
+                  <p class="card-text text-sm" style="font-size: 14px">
+                    Pelaku Usaha menggunakan FINTAG untuk dapatkan modal usaha
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3 col-sm-12">
-          <div class="ml-5">
-            <div
-              class="card border-white text-center d-flex align-items-center justify-content-center shadow"
-              style="width: 18rem"
-            >
+          <div class="col-md-3 col-sm-12 hidden" ref="card1">
+            <div class="ml-5">
               <div
-                class="d-flex align-items-center justify-content-center rounded-circle p-3 mt-5 bg-primary"
-                style="width: 100px; height: 100px"
+                class="card border-white text-center d-flex align-items-center justify-content-center shadow"
+                style="width: 18rem"
               >
-                <div>
-                  <ion-icon
-                    name="person-circle-outline"
-                    style="font-size: 50px; color: white"
-                  ></ion-icon>
+                <div
+                  class="d-flex align-items-center justify-content-center rounded-circle p-3 mt-5 bg-primary"
+                  style="width: 100px; height: 100px"
+                >
+                  <div>
+                    <ion-icon
+                      name="person-circle-outline"
+                      style="font-size: 50px; color: white"
+                    ></ion-icon>
+                  </div>
                 </div>
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">Agen FINTAG</h5>
-                <p class="card-text text-sm" style="font-size: 14px">
-                  Rekan FINTAG Mensupport data dan maintenance Peminjam
-                </p>
+  
+                <div class="card-body">
+                  <h5 class="card-title">Agen FINTAG</h5>
+                  <p class="card-text text-sm" style="font-size: 14px">
+                    Rekan FINTAG Mensupport data dan maintenance Peminjam
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3 col-sm-12">
-          <div class="ml-5">
-            <div
-              class="card border-white text-center d-flex align-items-center justify-content-center shadow"
-              style="width: 18rem"
-            >
+          <div class="col-md-3 col-sm-12 hidden" ref="card2">
+            <div class="ml-5">
               <div
-                class="d-flex align-items-center justify-content-center rounded-circle p-3 mt-5 bg-primary"
-                style="width: 100px; height: 100px"
+                class="card border-white text-center d-flex align-items-center justify-content-center shadow"
+                style="width: 18rem"
               >
-                <div>
-                  <ion-icon
-                    name="globe-outline"
-                    style="font-size: 50px; color: white"
-                  ></ion-icon>
+                <div
+                  class="d-flex align-items-center justify-content-center rounded-circle p-3 mt-5 bg-primary"
+                  style="width: 100px; height: 100px"
+                >
+                  <div>
+                    <ion-icon
+                      name="globe-outline"
+                      style="font-size: 50px; color: white"
+                    ></ion-icon>
+                  </div>
                 </div>
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">FINTAG</h5>
-                <p class="card-text text-sm" style="font-size: 14px">
-                  FINTAG memilah Pelaku Usaha serta memfasilitasi transaksi
-                  permodalan
-                </p>
+  
+                <div class="card-body">
+                  <h5 class="card-title">FINTAG</h5>
+                  <p class="card-text text-sm" style="font-size: 14px">
+                    FINTAG memilah Pelaku Usaha serta memfasilitasi transaksi
+                    permodalan
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-3 col-sm-12">
-          <div class="ml-5">
-            <div
-              class="card border-white text-center d-flex align-items-center justify-content-center shadow"
-              style="width: 18rem"
-            >
+          <div class="col-md-3 col-sm-12 hidden" ref="card3">
+            <div class="ml-5">
               <div
-                class="d-flex align-items-center justify-content-center rounded-circle p-3 mt-5 bg-primary"
-                style="width: 100px; height: 100px"
+                class="card border-white text-center d-flex align-items-center justify-content-center shadow"
+                style="width: 18rem"
               >
-                <div>
-                  <ion-icon
-                    name="people-outline"
-                    style="font-size: 50px; color: white"
-                  ></ion-icon>
+                <div
+                  class="d-flex align-items-center justify-content-center rounded-circle p-3 mt-5 bg-primary"
+                  style="width: 100px; height: 100px"
+                >
+                  <div>
+                    <ion-icon
+                      name="people-outline"
+                      style="font-size: 50px; color: white"
+                    ></ion-icon>
+                  </div>
                 </div>
-              </div>
-
-              <div class="card-body">
-                <h5 class="card-title">Pemberi Pinjaman</h5>
-                <p class="card-text text-sm" style="font-size: 14px">
-                  Mitra FINTAG baik individu maupun Badan Usaha yang mendanai
-                  usaha peminjam
-                </p>
+  
+                <div class="card-body">
+                  <h5 class="card-title">Pemberi Pinjaman</h5>
+                  <p class="card-text text-sm" style="font-size: 14px">
+                    Mitra FINTAG baik individu maupun Badan Usaha yang mendanai
+                    usaha peminjam
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -117,7 +119,7 @@
       </div>
 
       <div class="row bg-white w-full px-5 py-5" style="margin-top: 10%">
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 hidden" ref="card4">
           <div class="col-md-3 col-sm-12">
             <div class="ml-5">
               <div
@@ -146,7 +148,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 hidden" ref="card5">
           <div class="col-md-3 col-sm-12">
             <div class="ml-5">
               <div
@@ -173,7 +175,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 hidden" ref="card6">
           <div class="col-md-3 col-sm-12">
             <div class="ml-5">
               <div
@@ -206,7 +208,7 @@
           <h3 class="px-5 py-5">Portofolio FINTAG</h3>
       </div>
       <div class="row">
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 hidden" ref="card7">
           <div class="ml-5">
             <div
               class="card border-white text-center d-flex align-items-center justify-content-center shadow"
@@ -230,7 +232,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 hidden" ref="card8">
           <div class="ml-5">
             <div
               class="card border-white text-center d-flex align-items-center justify-content-center shadow"
@@ -254,7 +256,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 hidden" ref="card9">
           <div class="ml-5">
             <div
               class="card border-white text-center d-flex align-items-center justify-content-center shadow"
@@ -280,7 +282,7 @@
         </div>
     </div>
     <div class="row mt-5">
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 hidden" ref="card10">
           <div class="ml-5">
             <div
               class="card border-white text-center d-flex align-items-center justify-content-center shadow"
@@ -304,7 +306,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 hidden" ref="card11">
           <div class="ml-5">
             <div
               class="card border-white text-center d-flex align-items-center justify-content-center shadow"
@@ -328,7 +330,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 hidden" ref="card12">
           <div class="ml-5">
             <div
               class="card border-white text-center d-flex align-items-center justify-content-center shadow"
@@ -359,22 +361,22 @@
         <h3 class="text-center px-5 py-5">Partner Kami</h3>
         <div class="mt-5">
             <div class="row">
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-12 hidden" ref="card13">
                     <img src="https://fintag.id/img/lpmukp-logo.png" class="img" alt="">
                 </div>
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-12 hidden" ref="card14">
                     <img src="https://fintag.id/img/bni-logo.png" class="img" alt="">
                 </div>
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-12 hidden" ref="card15">
                     <img src="https://fintag.id/img/peruri-logo.png" class="img" alt="">
                 </div>
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-12 hidden" ref="card16">
                     <img src="https://fintag.id/img/pefindo-logo.png" class="img relative mb-5" style="position: relative;bottom: 45px;" alt="">
                 </div>
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-12 hidden" ref="card17">
                     <img src="https://fintag.id/img/simasinsurtech-logo-black.png" class="img" alt="">
                 </div>
-                <div class="col-md-2 col-sm-12">
+                <div class="col-md-2 col-sm-12 hidden" ref="card18">
                     <img src="https://fintag.id/img/colmitra.png" class="img" alt="" style="position: relative;bottom: 26px;">
                 </div>
             </div>
@@ -383,9 +385,50 @@
   </div>
 </template>
 
-<style lang="css">
-    .img {
-        height: auto;
-        max-width: 100%;
+<script>
+export default {
+  data() {
+    return {
+      isVisible: false,
     }
+  },
+
+  mounted() {
+    const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              // If the element is in view, set 'visible' class to show it
+              entry.target.classList.add('visible');
+              // Once the element is visible, unobserve it to prevent unnecessary checks
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.2 }); // Adjust this threshold as needed
+
+        // Select all elements with the 'hidden' class and observe each one
+        for (let i = 0; i < 20; i++) {
+          const card = this.$refs[`card${i}`];
+          if (card) {
+            observer.observe(card);
+          }
+        }
+  },
+}
+</script>
+
+<style lang="css">
+  .img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  .visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
 </style>

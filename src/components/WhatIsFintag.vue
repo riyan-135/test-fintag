@@ -16,7 +16,7 @@
                 FINTAG adalah platform Layanan Pendanaan Bersama Berbasis Teknologi Informasi yang mempertemukan peminjam (pelaku usaha UMKM) dengan pemberi pinjaman (Perorangan maupun Badan Usaha). FINTAG pun merupakan salah satu penyelenggara P2P lending yang kini telah melakukan adaptasi teknologi digital secara proper dengan memiliki beberapa fitur antara lain :
             </p>
 
-            <ul>
+            <ul style="list-style: circle;" class="px-5">
                 <li>
                     E-KYC (Fitur untuk memvalidasi setiap pengguna dengan tepat)
                 </li>

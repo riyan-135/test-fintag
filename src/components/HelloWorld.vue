@@ -1,7 +1,9 @@
 <template>
   <div>
-    <div class="">
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="position-relative">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white position-fixed fixed-top w-100 shadow"
+      >
         <div class="container">
           <a class="navbar-brand" href="#"
             ><img
@@ -75,17 +77,19 @@
       </nav>
     </div>
 
-    <div>
+    <div class="ml-4 mr-4" style="margin-top: 6.5%">
       <CarouselImage></CarouselImage>
     </div>
     <!-- v-if="showContent" -->
-    <div class="container scroll-content" >
+    <div class="container scroll-content">
       <WhatIsFintag />
     </div>
-    <div class="container-fluid bg-light">
+    <div
+      class="container-fluid bg-light cara-kerja"
+    >
       <CaraKerja />
     </div>
-    <div class="container-fluid bg-primary">
+    <div class="container-fluid bg-primary" style="height: 55rem">
       <LayananKami />
     </div>
     <div class="container-fluid">
@@ -97,31 +101,21 @@
 <script>
 import CarouselImage from "./CarouselImage.vue";
 import WhatIsFintag from "./WhatIsFintag.vue";
-import CaraKerja from "./CaraKerja.vue"
-import LayananKami from "./LayananKami.vue"
-import FooterSection from "./FooterSection"
+import CaraKerja from "./CaraKerja.vue";
+import LayananKami from "./LayananKami.vue";
+import FooterSection from "./FooterSection";
 export default {
-  components: { CarouselImage, WhatIsFintag, CaraKerja, LayananKami, FooterSection },
+  components: {
+    CarouselImage,
+    WhatIsFintag,
+    CaraKerja,
+    LayananKami,
+    FooterSection,
+  },
   data() {
     return {
-      showContent: false,
+      
     };
-  },
-
-  mounted() {
-    window.addEventListener("scroll", this.handleScroll);
-  },
-
-  beforeDestroy() {
-    window.removeEventListener("scroll", this.handleScroll);
-  },
-  methods: {
-    handleScroll() {
-      const scrollPosition =
-        window.scrollY || document.documentElement.scrollTop;
-      const scrollThreshold = 200;
-      this.showContent = scrollPosition > scrollThreshold;
-    },
   },
 };
 </script>
@@ -135,5 +129,10 @@ export default {
 
 .scroll-content {
   padding: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 </style>
