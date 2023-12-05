@@ -1,44 +1,31 @@
 <template>
     <div>
-        <div class="text-center text-white px-5 py-5">
-            <h2>Layanan Kami</h2>
+        <div class="text-center px-5 py-5">
+            <h2>Hubungi Kami</h2>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
-                <h3 class="text-white text-center">Layanan Pengaduan FINTAG</h3>
-                <p class="text-center text-white">
-                    Suarakan kritik saran, dan keluhan anda melalui customer support kami:
-                </p>
-                <div class="px-5 py-5">
-                    <ul class="list-group" style="list-style: none
-                    ;">
-                        <li class="text-white mt-3"><i class="fa fa-phone rounded-circle text-white px-3 py-3" style="background: blue;width: 50px; height: 50px;"></i> (021) 2708 5000/2000</li>
-                        <li class="text-white mt-3"><i class="fa fa-envelope rounded-circle text-white px-3 py-3" style="background: blue;width: 50px; height: 50px;"></i> cs@fintag.id</li>
-                        <li class="text-white mt-3"><i class="fa fa-calendar rounded-circle text-white px-3 py-3" style="background: blue;width: 50px; height: 50px;"></i> Senin - Jum’at</li>
-                        <li class="text-white mt-3"><i class="fa fa-clock-o rounded-circle text-white px-3 py-3" style="background: blue;width: 50px; height: 50px;"></i> 09:00 WIB - 17:00 WIB</li>
-                    </ul>
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.217781860334!2d106.81785167381939!3d-6.234998261055271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3d063b5e55d%3A0xe2f607f2f19106c9!2sFintag%20(PT.%20Fintegra%20Homido%20Indonesia)!5e0!3m2!1sid!2sid!4v1701804465043!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-            <div class="col-md-6">
-                <h3 class="text-white text-center">Kantor Perwakilan FINTAG</h3>
-                <p class="text-center text-white">
-                </p>
-                <div class="px-5 py-5">
-                    <ul class="list-group" style="list-style: none
-                    ;">
-                        <li class="text-white mt-5"><i class="material-icons rounded-circle text-white px-3 py-3" style="background: blue;width: 50px; height: 50px;">place</i> <p  class="position-relative text-white" style="margin-left: 10%;bottom: 3rem; font-size: 14px; font-weight: bold;">Makassar: Gedung Bank Sinarmas, Lt. 4 <br> <span>Jl. Pengayoman No. 182, Makassar, Sulawesi Selatan 90231</span></p></li>
-                        <li class="text-white position-relative" style="bottom: 3rem;"><i class="material-icons rounded-circle text-white px-3 py-3" style="background: blue;width: 50px; height: 50px;">place</i> <p  class="position-relative text-white" style="margin-left: 10%;bottom: 3rem; font-size: 14px; font-weight: bold;">Denpasar: Gedung Bank Sinarmas, Lt. 3 <br> <span>Jl. Mpu Tantular No. 8 Renon Denpasar 80266</span></p></li>
-                        <li class=" position-relative text-white" style="bottom: 6rem;"><i class="material-icons rounded-circle text-white px-3 py-3" style="background: blue;width: 50px; height: 50px;">place</i> <p  class="position-relative text-white" style="margin-left: 10%;bottom: 3rem; font-size: 14px; font-weight: bold;">Manado: Gedung Bank Sinarmas, Lt. 4 <br> <span>Jl. Samratulangi 18, Wenang Manado 95000</span></p></li>
-                        <li class="position-relative text-white" style="bottom: 9rem;"><i class="material-icons rounded-circle text-white px-3 py-3" style="background: blue;width: 50px; height: 50px;">place</i> <p  class="position-relative text-white" style="margin-left: 10%;bottom: 3rem; font-size: 14px; font-weight: bold;">Kupang: Gedung Bank Sinarmas, Lt. 3 <br> <span>Jl. Flores No. 8 Oeba, Kota Kupang, NTT 85226</span></p></li>
-                    </ul>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div>
+                    <p>
+                        <i class="fa fa-phone rounded-circle px-3 py-3"></i> (021) 2708 5000/2000
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope rounded-circle px-3 py-3"></i> cs@fintag.id
+                    </p>
+                    <p>
+                        <i class="fa fa-calendar rounded-circle px-3 py-3"></i> Senin - Jum’at
+                    </p>
+                    <p>
+                        <i class="fa fa-clock-o rounded-circle px-3 py-3"></i> 09:00 WIB - 17:00 WIB
+                    </p>
                 </div>
             </div>
-        </div>
-        <div class="d-flex justify-content-center align-items-center">
-            <button type="button" class="btn btn-outline-light font-weight-bold">
-                <i class="fa fa-hand-o-right text-white px-2 py-2"></i> Ketentuan Layanan Pengaduan
-            </button>
         </div>
     </div>
 </template>
